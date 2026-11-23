@@ -2,24 +2,24 @@
 @plugin "@tailwindcss/forms";
 
 @theme {
-  --color-bg: #11131a;
-  --color-surface: #1c2030;
-  --color-ink: #f4f5f8;
-  --color-muted: #a3a9bd;
-  --color-accent: #ff7a1a;
-  --color-accent-ink: #1a0e00;
-  --color-line: #2f3550;
+  --color-bg: #0f1622;
+  --color-surface: #182234;
+  --color-ink: #e6ecf5;
+  --color-muted: #8fa0b8;
+  --color-accent: #6aa3e8;
+  --color-accent-ink: #0b1320;
+  --color-line: #28364e;
 }
 
 @layer base {
   html[data-theme="battery"] {
-    --color-bg: #f1f8f3;
-    --color-surface: #ffffff;
-    --color-ink: #14281c;
-    --color-muted: #4b5f53;
-    --color-accent: #15803d;
+    --color-bg: #eef3f9;
+    --color-surface: #f8fafd;
+    --color-ink: #172336;
+    --color-muted: #52647e;
+    --color-accent: #3b6ea5;
     --color-accent-ink: #ffffff;
-    --color-line: #c9dccf;
+    --color-line: #cfdbe9;
   }
   body { @apply bg-bg text-ink transition-colors duration-300; }
 }
