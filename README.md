@@ -1,6 +1,5 @@
 # Student Laptop Finder (SW302 Assignment 2)
 
-Vanilla JavaScript (ES modules) + Tailwind CSS 4. No CDN, no frameworks.
 
 ## Install and build
 ```bash
@@ -13,7 +12,7 @@ npm run watch      # rebuild while you edit
 Open the folder in VS Code and use **Live Server** on `index.html` (fetch() does not work on file://).
 
 ## GitHub
-https://github.com/YOURNAME/laptop_finder
+https://github.com/roaa-abdelghany/laptop_finder_Roaa_Abdelghany.git
 
 ## Structure
 - `src/input.css` Tailwind setup: @theme (2 themes), @plugin forms, @layer components
