@@ -13,7 +13,6 @@ const sorters = {
 };
 let all = [];
 
-// Search + filters + sort all work together on every change
 function update() {
   const q = controls.q.value.trim().toLowerCase();
   const maxPrice = Number(controls.price.value) || Infinity;
