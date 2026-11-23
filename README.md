@@ -11,7 +11,7 @@ npm run watch      # rebuild while you edit
 ## Run
 Open the folder in VS Code and use **Live Server** on `index.html` (fetch() does not work on file://).
 
-python -m http.server 
+`python -m http.server`
 
 ## GitHub
 https://github.com/roaa-abdelghany/laptop_finder_Roaa_Abdelghany.git
