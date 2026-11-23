@@ -1,0 +1,28 @@
+{
+  "name": "laptop_finder_roaa_abdelghany",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roaa-abdelghany/laptop_finder_Roaa_Abdelghany.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/roaa-abdelghany/laptop_finder_Roaa_Abdelghany/issues"
+  },
+  "homepage": "https://github.com/roaa-abdelghany/laptop_finder_Roaa_Abdelghany#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "@tailwindcss/forms": "^0.5.11",
+    "tailwindcss": "^4.3.5"
+  }
+}

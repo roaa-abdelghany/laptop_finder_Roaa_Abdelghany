@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="performance">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compare – Student Laptop Finder</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="flex min-h-screen flex-col">
+  <header id="site-header" class="sticky top-0 z-10 border-b border-line bg-surface"></header>
+  <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+    <h1 class="text-3xl font-bold">Compare laptops</h1>
+    <p class="mt-1 text-muted">Pick 2 to 4 of your favorites.</p>
+    <div id="picker" class="mt-4 flex flex-wrap gap-2"></div>
+    <p id="msg" role="alert" class="mt-3 text-sm font-medium text-accent"></p>
+    <div id="table" class="mt-4"></div>
+  </main>
+  <footer class="border-t border-line py-6 text-center text-sm text-muted">© 2026 Student Laptop Finder · SW302</footer>
+  <script type="module" src="src/js/comparePage.js"></script>
+</body>
+</html>

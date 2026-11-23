@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="performance">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Favorites – Student Laptop Finder</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="flex min-h-screen flex-col">
+  <header id="site-header" class="sticky top-0 z-10 border-b border-line bg-surface"></header>
+  <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <h1 class="text-3xl font-bold">Your favorites</h1>
+      <button id="clear" type="button" class="btn-ghost disabled:opacity-50">Clear all</button>
+    </div>
+    <p id="totals" role="status" class="my-4 font-medium text-accent"></p>
+    <div id="grid"></div>
+  </main>
+  <footer class="border-t border-line py-6 text-center text-sm text-muted">© 2026 Student Laptop Finder · SW302</footer>
+  <script type="module" src="src/js/favorites.js"></script>
+</body>
+</html>

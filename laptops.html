@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="performance">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laptops – Student Laptop Finder</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="flex min-h-screen flex-col">
+  <header id="site-header" class="sticky top-0 z-10 border-b border-line bg-surface"></header>
+  <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+    <h1 class="text-3xl font-bold">Laptop catalogue</h1>
+    <form class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-5" onsubmit="return false">
+      <label class="text-sm">Search<input id="search" type="search" placeholder="Name or brand" class="field mt-1"></label>
+      <label class="text-sm">Category<select id="category" class="field mt-1"><option value="all">All</option><option>ultrabook</option><option>gaming</option><option>2-in-1</option><option>creator</option><option>budget</option></select></label>
+      <label class="text-sm">Max price (EGP)<input id="max-price" type="number" min="0" step="50" placeholder="Any" class="field mt-1"></label>
+      <label class="text-sm">Min RAM<select id="min-ram" class="field mt-1"><option value="0">Any</option><option value="8">8 GB+</option><option value="16">16 GB+</option><option value="32">32 GB+</option></select></label>
+      <label class="text-sm">Sort by<select id="sort" class="field mt-1"><option value="">Default</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="battery-desc">Battery: longest first</option><option value="battery-asc">Battery: shortest first</option><option value="weight-asc">Weight: lightest first</option><option value="weight-desc">Weight: heaviest first</option></select></label>
+    </form>
+    <p id="count" role="status" class="my-4 text-sm text-muted"></p>
+    <div id="grid" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+  </main>
+  <footer class="border-t border-line py-6 text-center text-sm text-muted">© 2026 Student Laptop Finder · SW302</footer>
+  <script type="module" src="src/js/laptops.js"></script>
+</body>
+</html>

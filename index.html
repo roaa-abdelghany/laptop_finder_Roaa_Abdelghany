@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="performance">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home – Student Laptop Finder</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="flex min-h-screen flex-col">
+  <header id="site-header" class="sticky top-0 z-10 border-b border-line bg-surface"></header>
+  <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+    <section class="py-8 text-center sm:py-14">
+      <h1 class="text-4xl font-extrabold sm:text-5xl">Find the right <span class="text-accent">student laptop</span></h1>
+      <p class="mx-auto mt-4 max-w-2xl text-muted">Browse, search and filter laptops, save your favorites and compare them side by side. Use the theme switch to change between Performance and Battery Saver mode.</p>
+      <div class="mt-6 flex flex-wrap justify-center gap-3"><a class="btn-action" href="laptops.html">Browse laptops</a><a class="btn-ghost" href="compare.html">Compare</a></div>
+    </section>
+    <section id="stats" aria-live="polite" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4"></section>
+    <section class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <a href="laptops.html" class="laptop-card"><h3 class="font-bold text-accent">Laptops</h3><p class="mt-1 text-sm text-muted">Search, filter and sort the whole catalogue.</p></a>
+      <a href="details.html?id=1" class="laptop-card"><h3 class="font-bold text-accent">Laptop details</h3><p class="mt-1 text-sm text-muted">Open one laptop and read its full specs.</p></a>
+      <a href="favorites.html" class="laptop-card"><h3 class="font-bold text-accent">Favorites</h3><p class="mt-1 text-sm text-muted">Your saved laptops, total and average price.</p></a>
+      <a href="compare.html" class="laptop-card"><h3 class="font-bold text-accent">Compare</h3><p class="mt-1 text-sm text-muted">Put 2 to 4 favorites side by side.</p></a>
+    </section>
+  </main>
+  <footer class="border-t border-line py-6 text-center text-sm text-muted">© 2026 Student Laptop Finder · SW302</footer>
+  <script type="module" src="src/js/home.js"></script>
+</body>
+</html>
